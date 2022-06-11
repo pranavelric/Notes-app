@@ -1,0 +1,15 @@
+@use '../../styles/scss/' as *;
+
+.header{
+    padding: 1.5rem;
+    width: 100%;
+    @include flex(center,flex-start);
+    background-color: $main-color;
+    img{
+        margin: 0px 10px 0 10px;
+    }
+    h1{
+        margin-left: 10px;
+    }
+    box-shadow: $box-shadow;
+}
