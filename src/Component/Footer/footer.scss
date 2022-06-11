@@ -1,0 +1,12 @@
+@use '../../styles/scss/' as *;
+
+
+footer{
+    p{
+    color: wheat;
+    width: 100%;
+    @include flex(center,center);
+    position: absolute;
+    bottom: 0;
+}
+}
