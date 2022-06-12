@@ -1,0 +1,64 @@
+@use '../../styles/scss/' as *;
+
+
+.main_note{
+    padding: 2rem;
+   
+    form{
+   
+    position: relative;
+    box-shadow: $box-shadow;
+    border-radius: 8px;
+    margin: 20px auto;
+    background-color: white;
+    width: 600px;
+
+    .title{
+        border:none;
+        color:$txt-color;
+        display:block;
+        width:100%;
+        padding: 10px;
+        font-size:18px;
+        outline:none;
+        border-radius: 8px;
+
+        &::placeholder{
+          color:#3c4043;
+          opacity:0.5;
+        }
+    }
+
+    .textarea{
+        border-radius: 8px;
+        padding: 10px;
+        border:none;
+        color:$txt-color;
+        display:block;
+        width:100%;
+        font-family: $font-family;
+        font-size:13px;
+        font-weight:bold;
+        outline:none;
+        resize: none;
+        min-height: 10px;
+        &::placeholder{
+          color:#3c4043;
+          opacity:0.5;
+        }   
+
+
+    }
+        & Button{
+            box-shadow: $box-shadow;
+            position: absolute;
+            bottom: -11px;
+            right: -21px;
+            width: 40px;
+            height: 40px;
+            border-radius: 11px;
+            color: $txt-color;
+            background: $main-color;
+        }
+    }
+}
