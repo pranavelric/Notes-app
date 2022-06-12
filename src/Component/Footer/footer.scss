@@ -1,12 +1,14 @@
 @use '../../styles/scss/' as *;
 
 
-footer{
+footer
+{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: $main-color;
     p{
-    color: wheat;
     width: 100%;
     @include flex(center,center);
-    position: absolute;
-    bottom: 0;
 }
 }
